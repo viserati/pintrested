@@ -8,7 +8,7 @@ config.paperclip_defaults = {
   :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
 }
-
+end
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
