@@ -60,7 +60,7 @@ before_action :correct_user, only: [:edit, :update, :destroy]
 
 
     def pin_params
-      params.require(:pin).permit(:description, :image)
+      params.require(:pin).permit(:description, :image, :name)
     end
 
     def correct_user
