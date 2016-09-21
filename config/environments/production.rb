@@ -81,7 +81,8 @@ Rails.application.configure do
   config.action_mailer.default_url_options = {host: 'pintrested-turner.herokuapp.com'}
 
 
-=begin
+=begin ************************ AMAZON S3 Image upload did not work **********************
+
   config.paperclip_defaults = {
     storage: :s3,
     s3_credentials: {
@@ -91,6 +92,7 @@ Rails.application.configure do
     s3_region: ENV.fetch('AWS_REGION')
     }
   }
-=end
+
+=end 
 
 end
