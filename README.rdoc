@@ -21,7 +21,9 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* Any Operation instructions
+* Any Operation instructions ReadMe updated: 1.0, 
+
+*
 
 * ...
 
